@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: About Me!
 #subtitle: There's lots to learn !
 #gh-repo: daattali/beautiful-jekyll
