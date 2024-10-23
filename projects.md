@@ -31,17 +31,28 @@ I almost forgot to mention, I write blogs on [medium](https://medium.com/@_psyco
     - *Solution*: I modelled a fuzzy pre-processing layer which could be used with the existing node embedding generating 
     algorithms. This layer was based on TSK Fuzzy Logic Systems and took as input the whole embedding, assigned membrship values 
     to each embedding dimension, and then performed defuzzification to output crisp embeddings. It took 15 min to perform the 
-    whole operation on a graph with 60k edges. The experiments were done using [Node2Vec](https://arxiv.org/abs/1607.00653) by A.Grover et. al., [DeepWalk](https://arxiv.org/abs/1403.6652) and [Struc2Vec](https://arxiv.org/abs/1704.03165) on Ca-GrQc and Biogrid-human datasets 
+    whole operation on a graph with 60k edges.
 
+    The experiments were done with [Node2Vec](https://arxiv.org/abs/1607.00653) by A.Grover et. al., [DeepWalk](https://arxiv.org/abs/1403.6652) and [Struc2Vec](https://arxiv.org/abs/1704.03165) on Ca-GrQc and Biogrid-human dataset are in
+    
 
-    - *Results*: I was somewhat successful in increasing the accuracy of the model as well as th F-1 score. however it only increased by 0.1%. With some improvements in the structure and a good loss function, this pre-processing layer could be turned into an algorithm which will be able to learn much better and generate good results.
+    - *Results*: I was somewhat successful in increasing the accuracy of the model as well as th F-1 score. however it only increased by 
+    0.1%. With some improvements in the structure and a good loss function, this pre-processing layer could be turned into an algorithm 
+    which will be able to learn much better and generate good results.
 
-- Currently (as of Oct 2024), I am working in a startup as an intern.
+- Currently (as of Oct 2024), I am working at [BingeClip.Ai](https://www.bingeclip.ai/) as a Machine Learning Engineer Intern.
     - *Problem* The aim of the project is to optimize the inference pipeline and consequently the inference process for [CodeFormer](https://shangchenzhou.com/projects/CodeFormer/)
-    architecure. To do this, I had to study some optimization methods like [Knowledge distillation](https://neptune.ai/blog/knowledge-distillation), [Quantization](https://www.youtube.com/watch?v=0VdNflU08yA), [Mixed Precision Training](https://arxiv.org/abs/1710.03740), [Open Neural Network Exchange](https://onnx.ai/) (ONNX) frameworks. I also grew familiar with Pytorch's API for Quantization and Mixed Precision Training. These are a little new and upgrades are always coming. I grew familiar with the code-former architecure, a very good approach for image restoration,
-    I must say. 
+    architecure. To do this, I had to study some optimization methods like [Knowledge distillation](https://neptune.ai/blog/knowledge-distillation), [Quantization](https://www.youtube.com/watch?v=0VdNflU08yA), [Mixed Precision Training](https://arxiv.org/abs/1710.03740), [Open Neural Network Exchange](https://onnx.ai/) (ONNX) frameworks. I also grew familiar with Pytorch's API for Quantization and Mixed Precision Training. These are a little new and upgrades are always coming. I grew familiar with the code-former architecure. The authors have very appropriately used transformer module to capture facial relationships. This would not be possible with a multi layer perceptron or 
 
     - *Solutions*: I devised three solutions for this optimization problem.
-        -  first of all, very simple approach is to use batch inference. The original pipeline is written in one image at a time format which will introduce redundant loops and will not use the full power of GPUs in the backend, which can parallelize the computation and hence increase time.   
+        -  first of all, very simple approach is to use batch inference. The original pipeline is written in 'one image at a time' format, which will introduce redundant loops and will not use the full power of GPUs in the backend, which can parallelize the computation and hence increase time. To avoid redundant loops, I first introduced batches of test inputs and performed inference in order to save time.
+        - Second step was to introduce qunatization. Quantization is known to increase inference speeds at minimal accuracy losses. So i experimented with Post Training static quantization using pytorch's fx graph api. This is the latest API right now and runs without any errors. You can check out my code [here](https://github.com/psycoplankton/CodeFormer_optimization).
+        - After quantization, i also experimented with ONNX framework. And it definitely works fast. I 100% recommend it. I did not have to do much work, just a couple of API calls and sorted. 
+        - One more framework, I am thinking of experimenting with is tensorrt. From what I have heard and read, this helps in efficient resource allocation on GPUs. This could be a good approach, given that the scope of reducing time with modifications is not much.
+        - If the above approaches do not work out, I would experimet with Knowledge distillation and pruning techniques. 
+
+- I am also working as a research intern at Speech and Language Lab, NTU Singapore.
+    - *Problem*: working on synthetic interview dataset generation using LLMs for depression detection. I am using DAIC-WOZ dataset which is a record of 187 interviews taken by an agent Ellie(AI) and human users. The problem is this dataset is too small for the LLM to be able to learn anything from it, therefore some other sources of relevant information has to be included here in order to be able to learn from the interviews. 
+
 
 
