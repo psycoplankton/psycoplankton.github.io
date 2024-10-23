@@ -21,6 +21,7 @@ author: Vansh Gupta
 
 navbar-links:
   About Me: "aboutme"
+  Projects: "projects"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
@@ -60,7 +61,7 @@ social-network-links:
   whatsapp: 6239084133
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-  linkedin: vansh gupta
+  linkedin: vansh-gupta-6ba187247/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
