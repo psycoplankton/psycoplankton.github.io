@@ -19,7 +19,7 @@ I have worked on various projects since I started machine lerning in 2022. Initi
 
 I almost forgot to mention, I write blogs on [medium](https://medium.com/@_psycoplankton). Although I have not been very active, but i try to write whenever I get time.
 
-## Internship Projects (projects I did for more fun :stuck_out_tongue_winking_eye:)
+## Internship Projects (projects I did for more fun 😜)
 
 - I worked at Visual Computing and Analytics Lab, IIT BHU, for 9 months on GraphGANs and Fuzzy Neural Networks. 
     - *Problem Statememt*: GraphGANs use node embeddings as input to generate similar embeddings. This directly implies the better
@@ -31,32 +31,17 @@ I almost forgot to mention, I write blogs on [medium](https://medium.com/@_psyco
     - *Solution*: I modelled a fuzzy pre-processing layer which could be used with the existing node embedding generating 
     algorithms. This layer was based on TSK Fuzzy Logic Systems and took as input the whole embedding, assigned membrship values 
     to each embedding dimension, and then performed defuzzification to output crisp embeddings. It took 15 min to perform the 
-    whole operation on a graph with 60k edges.
-
-    ![fuzzy-layer](assets/images/fuzzy-layer.jpg) 
-    The results for the above layer when used along with [Node2Vec](https://arxiv.org/abs/1607.00653) by A.Grover et. al., [DeepWalk](https://arxiv.org/abs/1403.6652) and [Struc2Vec](https://arxiv.org/abs/1704.03165) on Ca-GrQc and Biogrid-human dataset are in
-    the following graphs.
-
-    ![accuracy-graph1](assets/images/graph1.jpg)
-
-    ![accuracy-graph2](assets/images/graph2.jpg)
+    whole operation on a graph with 60k edges. The experiments were done using [Node2Vec](https://arxiv.org/abs/1607.00653) by A.Grover et. al., [DeepWalk](https://arxiv.org/abs/1403.6652) and [Struc2Vec](https://arxiv.org/abs/1704.03165) on Ca-GrQc and Biogrid-human datasets 
 
 
-    - *Results*: I was somewhat successful in increasing the accuracy of the model as well as th F-1 score. however it only increased by 
-    0.1%. With some improvements in the structure and a good loss function, this pre-processing layer could be turned into an algorithm 
-    which will be able to learn much better and generate good results.
+    - *Results*: I was somewhat successful in increasing the accuracy of the model as well as th F-1 score. however it only increased by 0.1%. With some improvements in the structure and a good loss function, this pre-processing layer could be turned into an algorithm which will be able to learn much better and generate good results.
 
 - Currently (as of Oct 2024), I am working in a startup as an intern.
     - *Problem* The aim of the project is to optimize the inference pipeline and consequently the inference process for [CodeFormer](https://shangchenzhou.com/projects/CodeFormer/)
-    architecure. To do this, I had to study some optimization methods like [Knowledge distillation](https://neptune.ai/blog/knowledge-distillation), 
-    [Quantization](https://www.youtube.com/watch?v=0VdNflU08yA), [Mixed Precision Training](https://arxiv.org/abs/1710.03740), 
-    [Open Neural Network Exchange](https://onnx.ai/) (ONNX) frameworks. I also grew familiar with Pytorch's API for Quantization and Mixed Precision Training. These
-    are a little new and upgrades are always coming. I grew familiar with the code-former architecure, a very good approach for image restoration,
+    architecure. To do this, I had to study some optimization methods like [Knowledge distillation](https://neptune.ai/blog/knowledge-distillation), [Quantization](https://www.youtube.com/watch?v=0VdNflU08yA), [Mixed Precision Training](https://arxiv.org/abs/1710.03740), [Open Neural Network Exchange](https://onnx.ai/) (ONNX) frameworks. I also grew familiar with Pytorch's API for Quantization and Mixed Precision Training. These are a little new and upgrades are always coming. I grew familiar with the code-former architecure, a very good approach for image restoration,
     I must say. 
 
     - *Solutions*: I devised three solutions for this optimization problem.
-        -  first of all, very simple approach is to use batch inference. The original pipeline is written in one image at a time format.
-        which will introduce redundant loops and will not use the full power of GPUs in the backend, which can parallelize the computation
-        and hence increase time.   
+        -  first of all, very simple approach is to use batch inference. The original pipeline is written in one image at a time format which will introduce redundant loops and will not use the full power of GPUs in the backend, which can parallelize the computation and hence increase time.   
 
 

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: About Me!
 #subtitle: There's lots to learn !
 #gh-repo: daattali/beautiful-jekyll
@@ -14,4 +14,4 @@ I am also interested in Physics Informed Neural Networks.
 
 I have previously worked with [Dr. Prof. Sanjay Kumar Singh](https://www.iitbhu.ac.in/dept/cse/people/skscse) and [Dr. Prof. Vandana Bharti](https://www.iitdh.ac.in/user-profile/vandana-bharti) on GraphGANs and Fuzzy Nueral Networks. Currently, I am working under [Dr. Prof. Chng Eng Siong](https://aseschng.github.io/default.html) at Speech and Language Lab, at NTU Singapore. Also I am working at a startup [BingeClip](https://www.bingeclip.ai/) working on inference pipeline optimization. You can check out my latest work [here](https://psycoplankton.github.io/projects/)
 
-Apart from this, I am a chocolate lover and this will likely be the cause of my having diabeties in the future :neutral_face:. However, I hit the gym 4-5 times a week just so I can keep eating chocolate truffles and choco brownie ice creams. I like to keep myself busy, so that i do not spend my time overthinking. I also write articles on medium. 
+Apart from this, I am a chocolate lover and this will likely be the cause of my having diabeties in the future 😐. However, I hit the gym 4-5 times a week just so I can keep eating chocolate truffles and choco brownie ice creams. I like to keep myself busy, so that i do not spend my time overthinking. I also write articles on medium. 
