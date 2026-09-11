@@ -54,6 +54,23 @@ cv:
       date: '2025'
       summary: Tanmay Surana, Vansh Gupta, Chng Eng Siong.
     Experience:
+    - company: Speech and Language Lab, NTU Singapore
+      position: Research Intern
+      location: Singapore (Hybrid)
+      start_date: '2024-10-01'
+      end_date: '2026-07-01'
+      summary: LLM Fine-tuning, PEFT, LoRA, LLaMA Adapters, Emotion Extraction, Prompt
+        Tuning.
+      highlights:
+      - Researched and implemented parameter-efficient fine-tuning strategies (PEFT,
+        LoRA, Adapters, Prompt Tuning) on Lightning.Ai's litgpt to enhance emotion
+        extraction and depression detection in low-resource screening interviews.
+      - Experimented with data augmentation, attention-based models, and adversarial
+        perturbation, integrating robust loss functions (focal loss) to boost generalization.
+      - Achieved 69% F1 score on the DAIC-WOZ dataset, surpassing state-of-the-art
+        embedding models.
+      - Fine-tuned Qwen3-8B and Qwen3.5-9B on COKE dataset with LoRA; evaluated generation
+        quality via BLEU, METEOR, and ROUGE metrics for open-ended clinical dialogues.
     - company: Supervised Program for Alignment Research (SPAR)
       position: Research Fellow
       location: Remote
@@ -91,23 +108,6 @@ cv:
         models with repository callgraph integration.
       - Designed a threefold Agentic pipeline with LLM-as-a-judge evaluation setup
         for generating novel query-file(s) tuples targeting repository-level understanding.
-    - company: Speech and Language Lab, NTU Singapore
-      position: Research Intern
-      location: Singapore (Hybrid)
-      start_date: '2024-10-01'
-      end_date: Present
-      summary: LLM Fine-tuning, PEFT, LoRA, LLaMA Adapters, Emotion Extraction, Prompt
-        Tuning.
-      highlights:
-      - Researched and implemented parameter-efficient fine-tuning strategies (PEFT,
-        LoRA, Adapters, Prompt Tuning) on Lightning.Ai's litgpt to enhance emotion
-        extraction and depression detection in low-resource screening interviews.
-      - Experimented with data augmentation, attention-based models, and adversarial
-        perturbation, integrating robust loss functions (focal loss) to boost generalization.
-      - Achieved 69% F1 score on the DAIC-WOZ dataset, surpassing state-of-the-art
-        embedding models.
-      - Fine-tuned Qwen3-8B and Qwen3.5-9B on COKE dataset with LoRA; evaluated generation
-        quality via BLEU, METEOR, and ROUGE metrics for open-ended clinical dialogues.
     - company: Visual Computing and Analytics Lab, IIT BHU
       position: Research Intern
       location: Varanasi, India
