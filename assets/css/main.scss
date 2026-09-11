@@ -146,3 +146,28 @@ footer.fixed-bottom {
     margin-left: 2rem !important;
   }
 }
+
+
+/* Projects Card Styling */
+.card .card-img-top {
+  background-color: #ffffff !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  padding: 10px;
+  object-fit: contain;
+  max-height: 220px;
+}
+
+.card.hoverable {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card.hoverable:hover {
+  transform: translateY(-4px);
+  border-color: #58a6ff !important;
+  box-shadow: 0 8px 24px rgba(88, 166, 255, 0.15) !important;
+}
+
+figure.figure {
+  border: 1px solid #30363d;
+}
