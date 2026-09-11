@@ -47,10 +47,11 @@ I almost forgot to mention, I write blogs on [medium](https://medium.com/@_psyco
         - If the above approaches do not work out, I would experimet with Knowledge distillation and pruning techniques. 
 
 
-- I am also working as a research intern at Speech and Language Lab, NTU Singapore.
-
+- I am also working as a Research Intern at Speech and Language Lab, NTU Singapore.
     - *Problem*: working on synthetic interview dataset generation using LLMs for depression detection. I am using DAIC-WOZ dataset which is a record of 187 interviews taken by an agent Ellie(AI) and human users. The problem is this dataset is too small for the LLM to be able to learn anything from it, therefore some other sources of relevant information has to be included here in order to be able to learn from the interviews. 
+
     - *Solution*: The approach I am currently working on includes knowledge graphs and Emotion Dynamics.
+
         - I reviewed some LLM parameter efficient fine-tuning techniques like LoRA, LLaMA Adapter and knowledge graphs based augmentation techniques. Also reviwed KG-BERT architecture. This could potentially be used to augment the relevant embeddings with the input data embeddings. 
         - Currently, I am working on a approach which includes ECoK Knowledge Graph, which is a knowledge graph which captures text based on emotional semantics in text. This could be used with KG-BERT to generate embeddings, which could then be augmented with input embeddings from the DAIC-WOZ dataset. Also, I am considering using using [Utterence Emotion Dynamics](https://arxiv.org/abs/2310.17369)(Daniela et. al 2023) to anotate the text with emotional metrics which could also help in giving additional information for fine-tuning.  
 
