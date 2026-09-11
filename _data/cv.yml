@@ -1,45 +1,233 @@
 cv:
   name: Vansh Gupta
-  label: Dual Degree Student in Engineering Physics
+  label: Dual Degree (B.Tech + M.Tech) in Engineering Physics
   email: vansh1401876@gmail.com
-  location: Varanasi, India
-  image: ""
-  summary: Engineering Physics dual degree student at Indian Institute of Technology (BHU), Varanasi. Researching Natural Language Processing, Graphs & RL in Natural Language Understanding, and Physics Informed Neural Networks.
-
+  phone: +91-623-908-4133
+  location: IIT (BHU) Varanasi, India
+  website: https://psycoplankton.github.io
+  summary: Engineering Physics dual degree scholar at IIT (BHU) Varanasi. Research
+    focuses on Mechanistic Interpretability, Representation Learning, Graph Machine
+    Learning, and Reinforcement Learning with Human Feedback (RLHF).
   social_networks:
-    - network: GitHub
-      username: psycoplankton
-    - network: LinkedIn
-      username: vansh-gupta-6ba187247
-    - network: X
-      username: oneshhuu
-
+  - network: GitHub
+    username: psycoplankton
+  - network: LinkedIn
+    username: vansh-gupta-6ba187247
+  - network: X
+    username: oneshhuu
+  - network: Google Scholar
+    username: oE46NQcAAAAJ
   sections:
     Education:
-      - institution: Indian Institute of Technology (BHU), Varanasi
-        location: Varanasi, India
-        url: https://www.iitbhu.ac.in/
-        area: Engineering Physics (IDD)
-        studyType: Integrated Dual Degree
-
+    - institution: Indian Institute of Technology (BHU), Varanasi
+      area: Engineering Physics
+      studyType: Bachelor + Master of Technology (IDD)
+      location: Varanasi, India
+      start_date: '2021-12-01'
+      end_date: '2026-06-01'
+      highlights:
+      - 'Cumulative GPA: **8.14 / 10.0**'
+    Interests:
+    - name: Research Interests
+      keywords:
+      - Mechanistic Interpretability
+      - Representation Learning
+      - Graph Machine Learning
+      - Reinforcement Learning (RLHF/PPO/GRPO)
+      - Retrieval-Augmented Generation (RAG)
+      - LLM Fine-tuning (PEFT/LoRA)
+      - Causal Intervention
+    Publications:
+    - title: Enriching Pre-Training using Fuzzy Logic
+      publisher: IEEE International Conference on Fuzzy Systems (FUZZ-IEEE) 2025
+      date: '2025'
+      summary: Vansh Gupta, Vandana Bharti, Abhinav Kumar, Anshul Sharma, Sanjay Kumar
+        Singh.
+    - title: 'Time in Residual Stream: How Language Models Encode Temporal Horizon'
+      publisher: Under submission at NeurIPS 2026 Workshops (NeurReps, Interpreting
+        Agent Behaviour, Interp4Discovery)
+      date: '2026'
+      summary: Vansh Gupta, Justin Shenk.
+    - title: Leveraging Diagnostic Scores To Improve Depression Classification From
+        Screening Interviews
+      publisher: Preprint / Working Paper
+      date: '2025'
+      summary: Tanmay Surana, Vansh Gupta, Chng Eng Siong.
     Experience:
-      - company: Speech and Language Lab, NTU Singapore
-        position: Research Intern
-        location: Singapore (Remote)
-        summary: Working on synthetic interview dataset generation using LLMs and knowledge graphs for depression detection on the DAIC-WOZ dataset.
-      - company: BingeClip.Ai
-        position: Machine Learning Engineer Intern
-        location: India
-        summary: Optimizing the inference pipeline for CodeFormer architecture using dynamic batch inference, PyTorch FX Graph quantization, and ONNX runtime.
-      - company: Visual Computing and Analytics Lab, IIT BHU
-        position: Research Intern
-        location: Varanasi, India
-        summary: Researched GraphGANs and Fuzzy Neural Networks for 9 months, developing TSK fuzzy logic pre-processing layers to improve graph node representations.
-
+    - company: Supervised Program for Alignment Research (SPAR)
+      position: Research Fellow
+      location: Remote
+      start_date: '2026-03-01'
+      end_date: '2026-05-01'
+      summary: Causal Intervention, Representation Geometry Analysis, Latent Space
+        Dynamics, Activation and Attribution Patching.
+      highlights:
+      - Generated a 14.7K-triple synthetic corpus and 543 graded scenarios spanning
+        1 day–500 years using Qwen3-32B on vLLM with closed-vocabulary anchors, banned-word
+        constraints, and ±2-token length matching.
+      - Trained layer-wise linear probes on residual streams of 7 LLMs (1.7B–14B across
+        three model families) via TransformerLens, reaching 99% accuracy; validated
+        with shuffle, random-direction, and low-rank controls.
+      - Established log-linear (Weber–Fechner) horizon encoding by fitting five functional
+        forms via AIC/BIC with bootstrap CIs; log-linear won 97.4% of fits ($R^2=0.934$).
+      - Quantified manifold geometry via PCA with cubic-spline tortuosity, persistent
+        homology (Vietoris–Rips, Wasserstein/bottleneck, Betti numbers), and TwoNN
+        intrinsic dimension; corrected a 192× activation-norm confound.
+      - Ran full and direction-restricted activation patching with per-head circuit
+        attribution, exposing an encode $\neq$ use dissociation; benchmarked linear
+        against manifold-spline steering using Bhattacharyya energy.
+    - company: IBM Research
+      position: Research Intern
+      location: Bangalore, India
+      start_date: '2025-05-01'
+      end_date: '2025-08-01'
+      summary: Static Code Analysis, Synthetic Data Creation, Repository-Level Code
+        Comprehension, Chain-of-Thought Prompting.
+      highlights:
+      - Conducted comprehensive literature review of code chunking, Retrieval-Augmented
+        Code Generation, multimodal embedding models, and contrastive learning techniques.
+      - Manually engineered a benchmark dataset for repository-level code comprehension
+        (25 multi-file, 25 single-file problems) and evaluated SOTA code embedding
+        models with repository callgraph integration.
+      - Designed a threefold Agentic pipeline with LLM-as-a-judge evaluation setup
+        for generating novel query-file(s) tuples targeting repository-level understanding.
+    - company: Speech and Language Lab, NTU Singapore
+      position: Research Intern
+      location: Singapore (Hybrid)
+      start_date: '2024-10-01'
+      end_date: Present
+      summary: LLM Fine-tuning, PEFT, LoRA, LLaMA Adapters, Emotion Extraction, Prompt
+        Tuning.
+      highlights:
+      - Researched and implemented parameter-efficient fine-tuning strategies (PEFT,
+        LoRA, Adapters, Prompt Tuning) on Lightning.Ai's litgpt to enhance emotion
+        extraction and depression detection in low-resource screening interviews.
+      - Experimented with data augmentation, attention-based models, and adversarial
+        perturbation, integrating robust loss functions (focal loss) to boost generalization.
+      - Achieved 69% F1 score on the DAIC-WOZ dataset, surpassing state-of-the-art
+        embedding models.
+      - Fine-tuned Qwen3-8B and Qwen3.5-9B on COKE dataset with LoRA; evaluated generation
+        quality via BLEU, METEOR, and ROUGE metrics for open-ended clinical dialogues.
+    - company: Visual Computing and Analytics Lab, IIT BHU
+      position: Research Intern
+      location: Varanasi, India
+      start_date: '2023-08-01'
+      end_date: '2024-04-01'
+      summary: GraphMamba, GANs, Graph Neural Networks, Fuzzy Logic Systems, DeepWalk,
+        Node2Vec, Struc2Vec.
+      highlights:
+      - Redesigned GraphGAN with Wasserstein Loss, elevating link-prediction accuracy
+        from 84.7% to 88.57%.
+      - Implemented DeepWalk, Node2Vec, and Struc2Vec to extract and evaluate pre-trained
+        node embedding vectors.
+      - Pioneered a Fuzzy Pre-Processing layer with modified K-Means Clustering to
+        extract semantic features from node embeddings, boosting downstream link prediction
+        with GraphMamba by up to 5%.
+    Projects:
+    - name: IOI Circuit Detection - Interpretability in the Wild
+      summary: Mechanistic Interpretability, activation patching, circuit discovery,
+        logit lens analysis, causal ablations.
+      highlights:
+      - Reproduced end-to-end mechanistic analysis of Indirect Object Identification
+        (IOI) in GPT-2 Small, identifying and isolating circuits at attention-head
+        granularity.
+      - Implemented IOI dataset generation, activation patching, and template-conditioned
+        mean ablations to causally trace information flow across residual streams.
+      - Identified and categorized functional head classes (Name Movers, S-Inhibition,
+        Induction, Duplicate Token heads) and verified faithfulness and minimality
+        via knockouts.
+    - name: Understanding Modern LLM Architectures & Alignment
+      summary: Mixture-of-Experts, sliding window attention, rolling buffer KV Cache,
+        RLHF, Curriculum Learning.
+      highlights:
+      - 'Engineered core transformer building blocks from scratch: RMSNorm, RoPE,
+        SwiGLU activations, rolling buffer KV caching, sliding window attention, and
+        Mixture-of-Experts (MoE) layers.'
+      - Built end-to-end pipelines for Supervised Fine-Tuning (SFT) and reward modeling
+        using pairwise preference datasets with Bradley-Terry objectives.
+      - Implemented RLHF via PPO and Group Relative Policy Optimization (GRPO) with
+        reward normalization, KL regularization, and group advantage estimation.
+    - name: PaliGemma Reimplementation from Scratch
+      url: https://github.com/psycoplankton/PaliGemma-Reimplementation
+      summary: Multi/Grouped Query Attention, KV Cache, MultiModal LMs, Vision Transformers,
+        CLIP, RoPE.
+      highlights:
+      - Reimplemented google/siglip-so400m-patch14-384 and google/gemma-2b architectures
+        from scratch in PyTorch.
+      - Engineered a Multimodal Language Model with linear projection layers aligning
+        image and text representations for cross-modal tasks.
+      - Implemented KV caching and top-p sampling from scratch with pre-trained HuggingFace
+        weights.
+    Awards:
+    - title: Joint Entrance Examination (JEE) Advanced & Mains 2021
+      date: '2021'
+      summary: Secured AIR 6332 in JEE Mains (Top 99.40 percentile) and AIR 7196 in
+        IIT-JEE Advanced among over 1 million candidates.
+    - title: Indian Olympiad Qualifier in Chemistry (INChO) 2020
+      date: '2020'
+      summary: Top 1% and State Topper in Indian Olympiad Qualifier in Chemistry among
+        17,000+ national participants.
+    - title: Bertelsmann Next Generation Tech Booster Scholarship
+      date: '2023'
+      summary: Awarded competitive industry scholarship for the Udacity Generative
+        AI Nanodegree Program.
     Skills:
-      - name: Core ML & AI
-        keywords: [PyTorch, LLMs, Transformers, Diffusion Models, Graph Neural Networks, RAG, VAEs]
-      - name: Optimization & Deployment
-        keywords: [ONNX Runtime, Quantization (PyTorch FX), Mixed Precision Training, Knowledge Distillation]
-      - name: Languages & Tools
-        keywords: [Python, C++, Git, Linux, Jekyll]
+    - name: Programming Languages
+      keywords:
+      - Python
+      - C
+      - C++
+      - SQL
+      - Bash
+    - name: Deep Learning & LLMs
+      keywords:
+      - PyTorch
+      - TransformerLens
+      - vLLM
+      - litgpt
+      - Hugging Face
+      - PyTorch Geometric
+      - TensorBoard
+      - TensorFlow
+    - name: Data Science & AI
+      keywords:
+      - Scikit-Learn
+      - LangChain
+      - LangGraph
+      - Gensim
+      - FAISS
+      - StatsModels
+      - Pandas
+      - NumPy
+      - Matplotlib
+      - PySpark
+    - name: MLOps & Platforms
+      keywords:
+      - Git
+      - GitHub Actions
+      - DVC
+      - MLflow
+      - Linux
+      - Docker
+    Coursework:
+    - label: Academic Courses (IIT BHU)
+      details: Fuzzy Set Theory, Linear Algebra, Differential Equations, Probability
+        & Statistics, Complex Analysis, Wavelet Analysis, Operations Research.
+    - label: Advanced & Online Courses
+      details: Deep Generative Modelling (Prof. Michael Elad, Technion), Large Language
+        Models (LCS2, IIT Delhi), Introduction to Reinforcement Learning (NPTEL, IIT
+        Madras), Interpretability of LLMs (Tel Aviv University).
+    Leadership & Activities:
+    - label: Students' Parliament (IIT BHU)
+      details: Member of Undergraduate Academic Affairs Committee. Collaborated with
+        52 parliament members, formulating and submitting 5 key academic policy proposals.
+    - label: Training and Placement Cell (IIT BHU)
+      details: Department Representative; coordinated and managed technical assessments
+        and interview pipelines for 40+ leading recruiters.
+    - label: Astronomy Club (IIT BHU)
+      details: Senior Core Team Member; led observational sessions for 100+ students,
+        co-hosted ML workshops with GDSC, and organized the 'Stellar Analytics' competition.
+    References:
+    - name: Prof. Chng Eng Siong
+      reference: Associate Professor, School of Computer Science and Engineering,
+        Nanyang Technological University (NTU), Singapore. Co-author & Research Mentor.
