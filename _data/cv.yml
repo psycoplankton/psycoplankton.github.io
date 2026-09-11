@@ -25,6 +25,7 @@ cv:
       location: Varanasi, India
       start_date: '2021-12-01'
       end_date: '2026-06-01'
+      date: "Dec 2021 - June 2026"
       highlights:
       - 'Cumulative GPA: **8.14 / 10.0**'
     Interests:
@@ -54,11 +55,12 @@ cv:
       date: '2025'
       summary: Tanmay Surana, Vansh Gupta, Chng Eng Siong.
     Experience:
-    - company: Speech and Language Lab, NTU Singapore
+    - company: Language and Speech Lab, NTU Singapore
       position: Research Intern
       location: Singapore (Hybrid)
       start_date: '2024-10-01'
       end_date: '2026-07-01'
+      date: "Oct 2024 - July 2025,<br>Feb 2026 - Jul 2026"
       summary: LLM Fine-tuning, PEFT, LoRA, LLaMA Adapters, Emotion Extraction, Prompt
         Tuning.
       highlights:
@@ -76,6 +78,7 @@ cv:
       location: Remote
       start_date: '2026-03-01'
       end_date: '2026-05-01'
+      date: "March 2026 - May 2026"
       summary: Causal Intervention, Representation Geometry Analysis, Latent Space
         Dynamics, Activation and Attribution Patching.
       highlights:
@@ -98,6 +101,7 @@ cv:
       location: Bangalore, India
       start_date: '2025-05-01'
       end_date: '2025-08-01'
+      date: "May 2025 - Aug 2025"
       summary: Static Code Analysis, Synthetic Data Creation, Repository-Level Code
         Comprehension, Chain-of-Thought Prompting.
       highlights:
@@ -113,6 +117,7 @@ cv:
       location: Varanasi, India
       start_date: '2023-08-01'
       end_date: '2024-04-01'
+      date: "Aug 2023 - April 2024"
       summary: GraphMamba, GANs, Graph Neural Networks, Fuzzy Logic Systems, DeepWalk,
         Node2Vec, Struc2Vec.
       highlights:
