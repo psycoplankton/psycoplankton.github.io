@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - psycoplankton/PaliGemma-Reimplementation
+  - psycoplankton/Attention-Analysis-with-without-RLHF
+  - psycoplankton/Fuzzy-Representation-Learning
   - psycoplankton/GPT-Decoded
-  - psycoplankton/RAG-from-scratch
-  - psycoplankton/VAE-from-scratch
-  - psycoplankton/CodeFormer_optimization
