@@ -1,0 +1,148 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you'll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure design tokens */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default: "930px" }}
+);
+
+/* Project partials from al_folio_core */
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/*******************************************************************************
+ * Custom Pure Black & White Theme Overrides for Vansh Gupta
+ ******************************************************************************/
+
+:root,
+html,
+html[data-theme="dark"],
+html[data-theme="light"],
+body {
+  color-scheme: dark !important;
+  --global-bg-color: #000000 !important;
+  --global-code-bg-color: #0d1117 !important;
+  --global-text-color: #ffffff !important;
+  --global-text-color-light: #c9d1d9 !important;
+  --global-theme-color: #58a6ff !important;
+  --global-hover-color: #79c0ff !important;
+  --global-hover-text-color: #ffffff !important;
+  --global-footer-bg-color: #000000 !important;
+  --global-footer-text-color: #8b949e !important;
+  --global-footer-link-color: #58a6ff !important;
+  --global-distill-app-color: #8b949e !important;
+  --global-divider-color: #21262d !important;
+  --global-card-bg-color: #0d1117 !important;
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.2) !important;
+  --global-back-to-top-text-color: #ffffff !important;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.navbar {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #21262d !important;
+}
+
+.navbar .navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #58a6ff !important;
+}
+
+.card {
+  background-color: #0d1117 !important;
+  border: 1px solid #21262d !important;
+  color: #ffffff !important;
+}
+
+.card-title,
+.card-text,
+.post-title {
+  color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+p, li, span {
+  color: #e6edf3;
+}
+
+a {
+  color: #58a6ff;
+}
+
+a:hover {
+  color: #79c0ff;
+}
+
+footer.fixed-bottom {
+  background-color: #000000 !important;
+  border-top: 1px solid #21262d !important;
+  color: #8b949e !important;
+}
+
+.profile img {
+  border-radius: 50% !important;
+  border: 3px solid #30363d !important;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08) !important;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.03);
+  border-color: #58a6ff !important;
+}
+
+.social {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.social .contact-icons a {
+  color: #e6edf3 !important;
+  font-size: 1.5rem;
+  margin: 0 0.4rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.social .contact-icons a:hover {
+  color: #58a6ff !important;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 36% !important;
+    max-width: 320px !important;
+    margin-left: 2rem !important;
+  }
+}

@@ -1,0 +1,45 @@
+cv:
+  name: Vansh Gupta
+  label: Dual Degree Student in Engineering Physics
+  email: vansh1401876@gmail.com
+  location: Varanasi, India
+  image: ""
+  summary: Engineering Physics dual degree student at Indian Institute of Technology (BHU), Varanasi. Researching Natural Language Processing, Graphs & RL in Natural Language Understanding, and Physics Informed Neural Networks.
+
+  social_networks:
+    - network: GitHub
+      username: psycoplankton
+    - network: LinkedIn
+      username: vansh-gupta-6ba187247
+    - network: X
+      username: oneshhuu
+
+  sections:
+    Education:
+      - institution: Indian Institute of Technology (BHU), Varanasi
+        location: Varanasi, India
+        url: https://www.iitbhu.ac.in/
+        area: Engineering Physics (IDD)
+        studyType: Integrated Dual Degree
+
+    Experience:
+      - company: Speech and Language Lab, NTU Singapore
+        position: Research Intern
+        location: Singapore (Remote)
+        summary: Working on synthetic interview dataset generation using LLMs and knowledge graphs for depression detection on the DAIC-WOZ dataset.
+      - company: BingeClip.Ai
+        position: Machine Learning Engineer Intern
+        location: India
+        summary: Optimizing the inference pipeline for CodeFormer architecture using dynamic batch inference, PyTorch FX Graph quantization, and ONNX runtime.
+      - company: Visual Computing and Analytics Lab, IIT BHU
+        position: Research Intern
+        location: Varanasi, India
+        summary: Researched GraphGANs and Fuzzy Neural Networks for 9 months, developing TSK fuzzy logic pre-processing layers to improve graph node representations.
+
+    Skills:
+      - name: Core ML & AI
+        keywords: [PyTorch, LLMs, Transformers, Diffusion Models, Graph Neural Networks, RAG, VAEs]
+      - name: Optimization & Deployment
+        keywords: [ONNX Runtime, Quantization (PyTorch FX), Mixed Precision Training, Knowledge Distillation]
+      - name: Languages & Tools
+        keywords: [Python, C++, Git, Linux, Jekyll]
