@@ -795,24 +795,25 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-avatar-wrapper {
   display: inline-block;
   text-align: center;
+  max-width: 100%;
 }
 
 .intro-avatar-img {
-  width: 18.75rem; /* 3x of original 6.25rem (300px) */
-  height: 18.75rem;
+  width: 35rem; /* Increased size by 100% (double size) */
+  height: 35rem;
   max-width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #222222;
-  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .intro-avatar-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
   border-color: var(--link-col);
-  box-shadow: 0 12px 36px rgba(88, 166, 255, 0.2);
+  box-shadow: 0 14px 48px rgba(88, 166, 255, 0.22);
 }
 
 .intro-header .page-heading.header-text-left,
@@ -831,15 +832,15 @@ hr.small.hr-left {
 
 @media (max-width: 991px) {
   .intro-avatar-img {
-    width: 15rem;
-    height: 15rem;
+    width: 24rem;
+    height: 24rem;
   }
 }
 
 @media (max-width: 767px) {
   .intro-avatar-img {
-    width: 11rem;
-    height: 11rem;
+    width: 18rem;
+    height: 18rem;
     margin-bottom: 1.5rem;
   }
   .intro-header .page-heading.header-text-left,
