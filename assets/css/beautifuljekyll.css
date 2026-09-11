@@ -790,6 +790,67 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   }
 }
 
+/* --- Header Avatar (Hero section: photo on right, text on left) --- */
+
+.intro-avatar-wrapper {
+  display: inline-block;
+  text-align: center;
+}
+
+.intro-avatar-img {
+  width: 18.75rem; /* 3x of original 6.25rem (300px) */
+  height: 18.75rem;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #222222;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.intro-avatar-img:hover {
+  transform: scale(1.03);
+  border-color: var(--link-col);
+  box-shadow: 0 12px 36px rgba(88, 166, 255, 0.2);
+}
+
+.intro-header .page-heading.header-text-left,
+.intro-header .post-heading.header-text-left {
+  text-align: left;
+}
+
+.intro-header .page-heading.header-text-left h1,
+.intro-header .post-heading.header-text-left h1 {
+  margin-top: 0;
+}
+
+hr.small.hr-left {
+  margin: 1rem 0;
+}
+
+@media (max-width: 991px) {
+  .intro-avatar-img {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-avatar-img {
+    width: 11rem;
+    height: 11rem;
+    margin-bottom: 1.5rem;
+  }
+  .intro-header .page-heading.header-text-left,
+  .intro-header .post-heading.header-text-left {
+    text-align: center;
+  }
+  hr.small.hr-left {
+    margin: 1rem auto;
+  }
+}
+
 /* --- Pagination --- */
 
 .pagination {
