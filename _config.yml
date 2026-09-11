@@ -52,20 +52,14 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "vansh1401876@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: deanattali
   github: psycoplankton
   twitter: oneshhuu
-  #patreon: DeanAttali
-  #youtube: "@daattali"
-  whatsapp: 6239084133
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
   linkedin: vansh-gupta-6ba187247/
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-  instagram: psycoplankton
+  google-scholar: "https://scholar.google.com/citations?user=oE46NQcAAAAJ&hl=en"
+  #whatsapp: 6239084133
+  #instagram: psycoplankton
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -86,7 +80,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
