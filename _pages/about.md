@@ -9,8 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>IIT (BHU) Varanasi</p>
-    <p>Varanasi, India</p>
+    <p>Research Intern@Jinesis Lab</p>
+    <p>IIT (BHU) Varanasi, India</p>
+    <p>Independent Researcher</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,8 +27,14 @@ latest_posts:
   limit: 3
 ---
 
-Hey There! Myself Vansh. I am currently pursuing my dual degree in Engineering Physics from Indian Institute of Technology, (Banaras Hindu University), Varanasi.
+Hi There! I recently graduated from 
+IIT (BHU), Varanasi with a Integrated Dual
+Degree in Engineering Physics. My research 
+interests are in Interpretability, Representation 
+Learning and AI Alignment. I believe that interpretability
+can help us achieve fully aligned AI models. I am actively
+looking for Full-time AI research roles. If you have leads
+hit me up!.
 
-My research interests lie in the field of Natural Language Processing. I have also worked with Generative Adversarial Networks in the past and have a good idea of Computer Vision as well. Particularly, I am interested in application of Graphs and Reinforcement Learning in Natural Language Understanding. I believe incorporation of Graphs as a knowledge base for LLMs and using reinforcement learning principles to design more robust agents can help design better agents.
-
-I am also interested in Physics Informed Neural Networks.
+I am a big marvel and a DC fan. I also like to
+rewatch my favourite TV shows on Netflix.   
